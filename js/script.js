@@ -1,5 +1,5 @@
-let repetir = true
-while(repetir){
+
+while (confirm("Desea convertir un número?")) {
 let numeroRomano = prompt("INGRESE UN NUMERO ROMANO (DEL 1 AL 20)").toUpperCase()
 if (numeroRomano == "I") {
     alert("1");
